@@ -1,0 +1,43 @@
+doctype html
+html
+  head
+    title #{title} besaani.com
+
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description', content='')
+    meta(name='author', content='')
+    link(href='stylesheets/bootstrap.css', rel='stylesheet')
+    link(href='stylesheets/style.css', rel='stylesheet')
+  body
+       .topnav
+             a.active(href='#home')
+             a(href='#about') 
+             a(href='#contact')
+             input(type='text', placeholder='Search..')
+    nav.navbar.navbar-inverse.navbar-fixed-top
+      .container
+        .navbar-header
+        button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-contro)
+            span.sr-only toggle navigation
+            span.icon-bar(<='', span='')
+              span.icon-bar(<='', span='')
+                span.icon-bar(<='', span='')
+          a.navbar-brand(href='#') Welcome to website
+        #navbar.collapse.navbar-collapse
+          ul.nav.navbar-nav
+            li.active
+              a(href='/') Home
+            li
+              a(href='/about') About
+            li
+              a(href='/contact') Contact
+
+    block content
+
+
+  footer
+
+        p copyright;besaani axmed 2018,halkan kala soco.
+
+       
