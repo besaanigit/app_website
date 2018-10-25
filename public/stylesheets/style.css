@@ -7,14 +7,14 @@ a {
   color: #00B7FF;
 }
   .jumbotron{
-	background-color: #999;
-   color: white;
+	background-image: url(../images/header1.jpg);
+	color: white;
    background-size: 20px;
 }
 
 .topnav {
     overflow: hidden;
-     background-color: #e9e9e9;
+     background-color: #9999;
 }
 
 .topnav a {
@@ -30,7 +30,7 @@ a {
  }
 
 .topnav a:hover {
-    background-color: #ddd;
+    background-color: #ddd455;
     color: black;
 }
 
@@ -43,19 +43,14 @@ a {
     font-size: 17px;
 }
 
-
 footer{
 
-	background-color: #999999;
-	height: 50px;
+	background-color: #99b997;
+	height: 20px;
 	text-align: center;
-	margin-top: 30px;
-	padding:  50px;  
+	margin-top: 20px;
+	padding:  20px;  
 	overflow: auto; 
 }
-
-
-
-
-
+ 
 

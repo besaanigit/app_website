@@ -11,33 +11,41 @@ html
     link(href='stylesheets/style.css', rel='stylesheet')
   body
        .topnav
-             a.active(href='#home')
-             a(href='#about') 
-             a(href='#contact')
+             a.active(href='/home')
+             a(href='/about') 
+             a(href='/contact')
              input(type='text', placeholder='Search..')
     nav.navbar.navbar-inverse.navbar-fixed-top
       .container
         .navbar-header
         button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#navbar', aria-expanded='false', aria-contro)
             span.sr-only toggle navigation
-            span.icon-bar(<='', span='')
               span.icon-bar(<='', span='')
+               span.icon-bar(<='', span='')
                 span.icon-bar(<='', span='')
-          a.navbar-brand(href='#') Welcome to website
+                  span.icon-bar(<='', span='')
+                    span.icon-bar(<='', span='')
+          a.navbar-brand(href='#') Besaani website
         #navbar.collapse.navbar-collapse
           ul.nav.navbar-nav
             li.active
-              a(href='/') Home
+              a(href='/') home
             li
               a(href='/about') About
             li
               a(href='/contact') Contact
+            li
+              a(href='/news') Wararka
+            li
+              a(href='/education') Educations
+          ul#main-navigation.nav.navbar-nav.pull-right
+            li
+              a.pull-right.hidden-xs(href='/login') Login
+            li
+              a.pull-right.hidden-xs(href='/register') Register
 
     block content
-
-
   footer
-
-        p copyright;besaani axmed 2018,halkan kala soco.
+        p copyright;besaani axmed 2018,halkan,kala soco.
 
        
